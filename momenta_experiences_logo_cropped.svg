@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="390" viewBox="0 210 1800 390" role="img" aria-labelledby="title desc">
+  <title id="title">Momenta Experiences Logo</title>
+  <desc id="desc">Minimal two-line Momenta Experiences logo with serif Momenta wordmark and gold divider lines.</desc>
+  <rect x="0" y="210" width="1800" height="390" fill="#F7F5F2"/>
+  <g transform="translate(900 405)" text-anchor="middle">
+    <text x="0" y="0"
+          font-family="'Playfair Display', 'Cormorant Garamond', 'Didot', 'Bodoni 72', 'Times New Roman', serif"
+          font-size="142"
+          font-weight="500"
+          letter-spacing="36"
+          fill="#111111">MOMENTA</text>
+    <g transform="translate(0 120)">
+      <line x1="-620" y1="-7" x2="-380" y2="-7" stroke="#C6A87D" stroke-width="4" stroke-linecap="square"/>
+      <text x="0" y="10"
+            font-family="'Inter', 'Montserrat', 'Manrope', Arial, sans-serif"
+            font-size="48"
+            font-weight="400"
+            letter-spacing="28"
+            fill="#111111">EXPERIENCES</text>
+      <line x1="380" y1="-7" x2="620" y2="-7" stroke="#C6A87D" stroke-width="4" stroke-linecap="square"/>
+    </g>
+  </g>
+</svg>
