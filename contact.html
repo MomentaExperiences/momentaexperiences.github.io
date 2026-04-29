@@ -3,61 +3,122 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact | Momenta Experiences</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap"
-    rel="stylesheet"
-  />
+  <title>Inquire | Momenta Experiences</title>
+
+  <!-- Free Google Fonts: Playfair Display + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
-    <div class="container header-inner">
-      <a href="index.html" class="logo" aria-label="Momenta Experiences home">
-        <img src="momenta_experiences_logo_cropped.svg" alt="Momenta Experiences logo" />
-      </a>
+    <a class="logo" href="index.html#home" aria-label="Momenta Experiences home">
+      <span class="logo-primary">MOMENTA</span>
+      <span class="logo-line">
+        <span></span>
+        <em>experiences</em>
+        <span></span>
+      </span>
+    </a>
 
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="about.html">About</a>
-        <a href="contact.html" class="active">Contact</a>
-      </nav>
-    </div>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#about">About</a>
+      <a class="nav-button" href="contact.html">Inquire</a>
+    </nav>
+
+    <button class="mobile-menu" aria-label="Open navigation">Menu</button>
   </header>
 
   <main>
-    <section class="page-hero">
-      <div class="container page-hero-content">
-        <p class="eyebrow">Contact</p>
-        <h1>Let’s create something memorable</h1>
+    <section class="contact-hero">
+      <div class="contact-hero-content">
+        <p class="eyebrow centered">Inquire</p>
+        <h1>Let’s create something memorable.</h1>
         <p>
-          For collaborations, inquiries, or upcoming experiences, we would love
-          to hear from you.
+          Tell us a little about your event, milestone, or experience. We’ll get back to you
+          with warmth, care, and thoughtful attention to detail.
         </p>
       </div>
     </section>
 
-    <section class="content-section contact-page-section">
-      <div class="container contact-card">
-        <p class="eyebrow">Email</p>
-        <h2>Reach out directly</h2>
-        <p>
-          Send a note and we will get back to you with warmth, care, and
-          thoughtful attention to detail.
-        </p>
-        <a class="contact-link" href="mailto:momenta.exp@gmail.com">
-          momenta.exp@gmail.com
-        </a>
+    <section class="contact-section">
+      <div class="contact-layout">
+        <div class="contact-card">
+          <p class="eyebrow">Start here</p>
+          <h2>Reach out directly</h2>
+          <p>
+            For collaborations, private celebrations, weddings, fitness events, or custom
+            experiences, send us a note and we’ll start the conversation.
+          </p>
+
+          <a class="contact-email" href="mailto:momenta.exp@gmail.com">
+            momenta.exp@gmail.com
+          </a>
+        </div>
+
+        <div class="contact-details">
+          <div>
+            <span class="detail-number">01</span>
+            <h3>Share the moment</h3>
+            <p>Tell us what you’re celebrating or creating.</p>
+          </div>
+
+          <div>
+            <span class="detail-number">02</span>
+            <h3>Define the feeling</h3>
+            <p>We’ll align on the mood, guest experience, and details that matter.</p>
+          </div>
+
+          <div>
+            <span class="detail-number">03</span>
+            <h3>Bring it to life</h3>
+            <p>From concept to execution, we help make the experience feel seamless.</p>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>© 2026 Momenta Experiences By Gurleen Suri</p>
+  <footer class="footer">
+    <div class="footer-card">
+      <span class="footer-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M20.8 4.6c-1.8-1.7-4.7-1.5-6.4.4L12 7.6 9.6 5C7.9 3.1 5 2.9 3.2 4.6 1.2 6.5 1.1 9.7 3 11.7l9 8.8 9-8.8c1.9-2 1.8-5.2-.2-7.1Z"/>
+        </svg>
+      </span>
+      <div>
+        <strong>Experienced & Passionate</strong>
+        <span>We care deeply about every detail.</span>
+      </div>
+    </div>
+
+    <div class="footer-card">
+      <span class="footer-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M21 11.5a8.4 8.4 0 0 1-9 8.3 8.8 8.8 0 0 1-3.8-.9L3 20l1.2-4.5A8.2 8.2 0 0 1 3 11.5C3 6.8 7 3 12 3s9 3.8 9 8.5Z"/>
+          <path d="M8 11.5h.01M12 11.5h.01M16 11.5h.01"/>
+        </svg>
+      </span>
+      <div>
+        <strong>Personalized Approach</strong>
+        <span>Your vision, our expertise.</span>
+      </div>
+    </div>
+
+    <div class="footer-card">
+      <span class="footer-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 3 14.8 9.2 21 12l-6.2 2.8L12 21l-2.8-6.2L3 12l6.2-2.8L12 3Z"/>
+        </svg>
+      </span>
+      <div>
+        <strong>Unforgettable Impact</strong>
+        <span>Memories that last a lifetime.</span>
+      </div>
     </div>
   </footer>
 </body>
