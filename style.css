@@ -977,3 +977,9 @@ a {
     min-height: 280px;
   }
 }
+
+
+.girl-scout-yoga-event {
+  background-image: url("assets/girl-scout-kids-yoga.jpg");
+  background-position: center center;
+}
