@@ -1026,16 +1026,11 @@ a {
 .sangeet-evening-event {
   background-image: url("assets/sangeet-evening.jpg");
   background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: var(--sand);
+  background-size: cover;
 }
 
 
-.sangeet-evening-event.past-event-image,
-.past-event-image.sangeet-evening-event {
-  min-height: 520px;
-}
+
 
 
 /* Copyright footer for individual service pages */
@@ -1057,4 +1052,11 @@ a {
   font-weight: 600;
   letter-spacing: 0.16em;
   text-transform: uppercase;
+}
+
+
+.custom-choreography-event {
+  background-image: url("assets/custom-choreography-performance.jpg");
+  background-position: center center;
+  background-size: cover;
 }
