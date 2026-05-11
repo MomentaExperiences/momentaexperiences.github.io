@@ -1406,3 +1406,85 @@ html {
     display: none !important;
   }
 }
+
+/* About page */
+.simple-about {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(34px, 6vw, 78px);
+  align-items: center;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: clamp(54px, 7vw, 88px) 28px;
+  background: var(--cream);
+}
+
+.simple-about-image {
+  background: var(--sand);
+  padding: clamp(14px, 2vw, 22px);
+  border: 1px solid rgba(17, 17, 17, 0.08);
+}
+
+.simple-about-photo {
+  min-height: 520px;
+  display: grid;
+  place-items: center;
+  background:
+    linear-gradient(135deg, rgba(198, 168, 125, 0.18), rgba(247, 245, 242, 0.84)),
+    var(--cream);
+  border: 1px dashed rgba(17, 17, 17, 0.22);
+  background-size: cover;
+  background-position: center;
+}
+
+.simple-about-photo span {
+  color: rgba(17, 17, 17, 0.52);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.simple-about-copy .eyebrow {
+  color: var(--gold);
+}
+
+.simple-about-copy h1 {
+  margin: 0 0 24px;
+  font-family: var(--serif);
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  font-weight: 500;
+  letter-spacing: -0.055em;
+  line-height: 0.96;
+}
+
+.simple-about-copy p {
+  max-width: 680px;
+  margin: 0 0 18px;
+  color: rgba(17, 17, 17, 0.74);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.simple-about-copy .text-link {
+  margin-top: 18px;
+}
+
+@media (max-width: 900px) {
+  .simple-about {
+    grid-template-columns: 1fr;
+    padding: 44px 24px 58px;
+  }
+
+  .simple-about-photo {
+    min-height: 380px;
+  }
+}
+
+
+.about-gurleen-photo {
+  background-image: url("assets/about-gurleen-photo.jpg");
+  background-size: cover;
+  background-position: center center;
+  border: none;
+}
